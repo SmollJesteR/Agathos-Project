@@ -1511,14 +1511,14 @@ blockquote {
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     
-    opacity: 0; /* Awal gambar tidak terlihat */
+    opacity: 100; /* Awal gambar tidak terlihat */
     transform: translateY(30px); /* Gambar sedikit bergeser ke bawah */
     transition: opacity 1.5s ease-out, transform 1.5s ease-out;
   }
   
   /* Saat elemen muncul di layar */
   .animate-img.show {
-    opacity: 1;
+    opacity: 100;
     transform: translateY(0); /* Kembali ke posisi semula */
   }
 
